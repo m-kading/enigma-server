@@ -1,0 +1,24 @@
+{
+  "name": "enigma-server",
+  "version": "1.0.0",
+  "description": "Replicates the WW2 enigma machine decrypter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha **/tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-kading/enigma-server.git"
+  },
+  "author": "Marcus Kading",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-kading/enigma-server/issues"
+  },
+  "homepage": "https://github.com/m-kading/enigma-server#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "mocha": "8.1.0"
+  }
+}
